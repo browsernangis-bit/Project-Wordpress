@@ -1,0 +1,106 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Nightlight",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#D98E6F",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#A99C90",
+          "name": "Mono 2",
+          "slug": "mono-2"
+        },
+        {
+          "color": "#1D1815",
+          "name": "Contrast Light",
+          "slug": "contrast-light"
+        },
+        {
+          "color": "#F0E8DD",
+          "name": "Contrast Dark",
+          "slug": "contrast-dark"
+        },
+        {
+          "color": "#1D1815",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "#F3EBE0",
+          "name": "Mono 1",
+          "slug": "mono-1"
+        },
+        {
+          "color": "#3D342C",
+          "name": "Mono 3",
+          "slug": "mono-3"
+        },
+        {
+          "color": "#262019",
+          "name": "Mono 4",
+          "slug": "mono-4"
+        },
+        {
+          "color": "#E9A98B",
+          "name": "Primary Hover",
+          "slug": "primary-hover"
+        },
+        {
+          "color": "#9CAE8B",
+          "name": "Featured",
+          "slug": "featured"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "blocks": {
+      "core/post-title": {
+        "typography": {
+          "fontWeight": "500"
+        }
+      },
+      "core/separator": {
+        "color": {
+          "text": "var(--wp--preset--color--mono-3)"
+        }
+      }
+    },
+    "elements": {
+      "button": {
+        "border": {
+          "radius": "6px"
+        },
+        "typography": {
+          "fontWeight": "600"
+        }
+      },
+      "heading": {
+        "typography": {
+          "fontWeight": "500"
+        }
+      },
+      "link": {
+        "typography": {
+          "textDecoration": "underline"
+        },
+        ":hover": {
+          "typography": {
+            "textDecoration": "none"
+          }
+        }
+      }
+    },
+    "spacing": {
+      "blockGap": "1.6rem"
+    },
+    "typography": {
+      "lineHeight": "1.8"
+    }
+  }
+}

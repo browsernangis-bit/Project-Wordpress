@@ -1,0 +1,114 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Dusk",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#7A4F63",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#6F6469",
+          "name": "Mono 2",
+          "slug": "mono-2"
+        },
+        {
+          "color": "#FFFFFF",
+          "name": "Contrast Light",
+          "slug": "contrast-light"
+        },
+        {
+          "color": "#2A242A",
+          "name": "Contrast Dark",
+          "slug": "contrast-dark"
+        },
+        {
+          "color": "#FBF8F9",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "#2E272C",
+          "name": "Mono 1",
+          "slug": "mono-1"
+        },
+        {
+          "color": "#E2D6DB",
+          "name": "Mono 3",
+          "slug": "mono-3"
+        },
+        {
+          "color": "#F2EAEE",
+          "name": "Mono 4",
+          "slug": "mono-4"
+        },
+        {
+          "color": "#5F3B4C",
+          "name": "Primary Hover",
+          "slug": "primary-hover"
+        },
+        {
+          "color": "#56646F",
+          "name": "Featured",
+          "slug": "featured"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "blocks": {
+      "core/post-title": {
+        "typography": {
+          "fontWeight": "500",
+          "letterSpacing": "0.01em"
+        }
+      },
+      "core/quote": {
+        "border": {
+          "left": {
+            "color": "var(--wp--preset--color--primary)",
+            "style": "solid",
+            "width": "2px"
+          }
+        }
+      }
+    },
+    "elements": {
+      "button": {
+        "border": {
+          "radius": "4px"
+        }
+      },
+      "h1": {
+        "typography": {
+          "lineHeight": "1.15"
+        }
+      },
+      "heading": {
+        "typography": {
+          "fontWeight": "500",
+          "letterSpacing": "0.01em"
+        }
+      },
+      "link": {
+        "typography": {
+          "textDecoration": "underline"
+        },
+        ":hover": {
+          "typography": {
+            "textDecoration": "none"
+          }
+        }
+      }
+    },
+    "spacing": {
+      "blockGap": "1.25rem"
+    },
+    "typography": {
+      "lineHeight": "1.7"
+    }
+  }
+}
